@@ -11,5 +11,7 @@ public class MainQueue {
 		list.addLast(70);
 		System.out.println(list);
 		System.out.println("Top of the list is " + list.peek());
+		list.removeFirst();
+		System.out.println(list);
 	}
 }
