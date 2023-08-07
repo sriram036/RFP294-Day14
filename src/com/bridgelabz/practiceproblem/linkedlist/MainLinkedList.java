@@ -12,6 +12,8 @@ public class MainLinkedList {
 		System.out.println(list);
 		list.add(2, 40);
 		System.out.println(list);
+		list.remove(2);
+		System.out.println(list);
 	}
 
 }
