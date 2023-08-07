@@ -10,7 +10,7 @@ public class MainLinkedList {
 		list.addLast(70);
 		list.add(1, 30);
 		System.out.println(list);
-		list.pop();
+		list.pollLast();
 		System.out.println(list);
 	}
 
