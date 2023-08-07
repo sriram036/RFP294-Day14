@@ -10,7 +10,8 @@ public class MainLinkedList {
 		list.addLast(70);
 		list.add(1, 30);
 		System.out.println(list);
-		System.out.println(list.contains(30));
+		list.add(2, 40);
+		System.out.println(list);
 	}
 
 }
