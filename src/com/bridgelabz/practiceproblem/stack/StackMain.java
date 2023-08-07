@@ -11,5 +11,14 @@ public class StackMain {
 		stack.push(70);
 		
 		System.out.println(stack);
+		
+		System.out.println(stack.peek());
+		
+		for(int i = 0; i <= stack.size(); i++) {
+			stack.pop();
+		}
+		stack.pop();
+		System.out.println(stack);
+		
 	}
 }
